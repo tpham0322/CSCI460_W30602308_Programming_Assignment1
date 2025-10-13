@@ -3,7 +3,7 @@
 #  Student ID: W30602308
 #  Course Code: CSCI 460 -- Fall 2025
 #  Assignment Due Date: 10/14/2025
-#  GitHub Link: <enter the link to your GitHub repository>
+#  GitHub Link: https://github.com/tpham0322/CSCI460_W30602308_Programming_Assignment1
 ######################################################
 
 import pandas as pd

@@ -18,7 +18,7 @@ df = pd.read_csv('bank-full.csv', sep=';')
 # Store mappings before encoding
 mappings = {}
 
-#categorical columns to integers
+# Categorical columns to integers (mapping)
 categorical_cols = ['job', 'marital', 'education', 'default', 'housing', 'loan',
                     'contact', 'month', 'poutcome', 'y']
 
@@ -60,7 +60,7 @@ print(f"\nAverage Accuracy: {np.mean(accs):.4f} ± {np.std(accs):.4f}")
 print(f"Average F1-score: {np.mean(f1s):.4f} ± {np.std(f1s):.4f}")
 
 # -----------------------
-# Task III: Varying train sizes
+# Task III: Varying train sizes, 10 trials each
 # -----------------------
 train_sizes = np.arange(0.1, 1.0, 0.1)
 results = []

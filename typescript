@@ -1,0 +1,34 @@
+Script started on 2025-10-14 12:21:54-04:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="117" LINES="8"]
+[?2004h]0;phamt4@thur114-hp1: ~/CSCI460/Assignment1/CSCI460_W30602308_Programming_Assignment1[01;32mphamt4@thur114-hp1[00m:[01;34m~/CSCI460/Assignment1/CSCI460_W30602308_Programming_Assignment1[00m$ [K]0;phamt4@thur114-hp1: ~/CSCI460/Assignment1/CSCI460_W30602308_Programming_Assignment1[01;32mphamt4@thur114-hp1[00m:[01;34m~/CSCI460/Assignment1/CSCI460_W30602308_Programming_Assignment1[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;phamt4@thur114-hp1: ~/CSCI460/Assignment1/CSCI460_W30602308_Programming_Assignment1[01;32mphamt4@thur114-hp1[00m:[01;34m~/CSCI460/Assignment1/CSCI460_W30602308_Programming_Assignment1[00m$ /bin/python3 /home/acc.phamt4/CSCI460/Assignment1/CSCI460_W30602308_Programming_Assignment1/main.py
+[?2004l
+=== Task II: 70/30 split (10 trials) ===
+Trial  1: Accuracy=0.8413, F1=0.8482
+Trial  2: Accuracy=0.8424, F1=0.8507
+Trial  3: Accuracy=0.8372, F1=0.8463
+Trial  4: Accuracy=0.8343, F1=0.8446
+Trial  5: Accuracy=0.8436, F1=0.8518
+Trial  6: Accuracy=0.8374, F1=0.8453
+Trial  7: Accuracy=0.8403, F1=0.8482
+Trial  8: Accuracy=0.8402, F1=0.8488
+Trial  9: Accuracy=0.8354, F1=0.8451
+Trial 10: Accuracy=0.8427, F1=0.8504
+
+Average Accuracy: 0.8395 ± 0.0031
+Average F1-score: 0.8479 ± 0.0024
+
+=== Task III: Varying Train Sizes ===
+Train Size	Acc Mean	Acc Std		F1 Mean		F1 Std
+0.1		0.8395		0.0061		0.8487		0.0038
+0.2		0.8441		0.0059		0.8514		0.0040
+0.3		0.8424		0.0077		0.8507		0.0054
+0.4		0.8479		0.0065		0.8539		0.0047
+0.5		0.8448		0.0053		0.8515		0.0039
+0.6		0.8464		0.0052		0.8529		0.0039
+0.7		0.8395		0.0031		0.8479		0.0024
+0.8		0.8417		0.0042		0.8498		0.0040
+0.9		0.8409		0.0034		0.8488		0.0030
+[?2004h]0;phamt4@thur114-hp1: ~/CSCI460/Assignment1/CSCI460_W30602308_Programming_Assignment1[01;32mphamt4@thur114-hp1[00m:[01;34m~/CSCI460/Assignment1/CSCI460_W30602308_Programming_Assignment1[00m$ exit
+[?2004lexit
+
+Script done on 2025-10-14 12:24:19-04:00 [COMMAND_EXIT_CODE="0"]

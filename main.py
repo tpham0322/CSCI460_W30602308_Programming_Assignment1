@@ -73,7 +73,7 @@ for ts in train_sizes:
         'f1_mean': np.mean(f1s),
         'f1_std': np.std(f1s)
     })
-
+as
 # Print table
 print("\n=== Task III: Varying Train Sizes ===")
 print("Train Size\tAcc Mean\tAcc Std\t\tF1 Mean\t\tF1 Std")

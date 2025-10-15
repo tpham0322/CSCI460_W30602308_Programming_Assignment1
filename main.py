@@ -80,7 +80,7 @@ print("Train Size\tAcc Mean\tAcc Std\t\tF1 Mean\t\tF1 Std")
 for r in results:
     print(f"{r['train_size']:.1f}\t\t{r['acc_mean']:.4f}\t\t{r['acc_std']:.4f}\t\t{r['f1_mean']:.4f}\t\t{r['f1_std']:.4f}")
 
-
+# Output plot
 import matplotlib.pyplot as plt
 plt.figure(figsize=(8,5))
 plt.errorbar(train_sizes, [r['acc_mean'] for r in results],
